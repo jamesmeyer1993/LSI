@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# yt - a script for the specific purpose of downloading vorbis audio
+
+url=$1
+dir=$2
+
+if [ $# -ne 1 ] ; then
+	echo "illegal number of parameters"
+elif [ $# -ne 2 ] ; then
+	youtube-dl -i --extract-audio --audio-format vorbis $url
+fi
+
+# rm *live* *Live* *LIVE* *part *webm

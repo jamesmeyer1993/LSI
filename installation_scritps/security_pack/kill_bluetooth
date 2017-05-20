@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# kill_bluetooth
+
+rfkill block bluetooth
+
+# to unblock this, enter the following command:
+# $ rfkill unblock bluetooth
