@@ -1,4 +1,4 @@
-# LUI
+# LSI
 
 Linux Universal Software Installer
 
