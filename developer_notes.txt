@@ -2,10 +2,16 @@ Current build:
 
 In its current state, Linux Universal Software Installer has no main method.
 Only unique scripts are being written and optomized. Any installation script
-for any software will be considered for integration.
+for any software or software extension will be considered for integration.
 
 TODO:
 
-	case: javadev_pack/eclipse.installer.sh
+[1]	add main installation script (a C program is not needed seeing that gcc may not be installed)
+
+[2]	case: javadev_pack/eclipse.installer.sh
 		- needs a dynamic approach to reading the xml on oracle's 
-		website so that downloads are not dependent on hard-coded urls 
+		website so that downloads are not dependent on hard-coded urls
+		
+[3]	case: vivaldi_pack
+		- source code is incomplete
+	
