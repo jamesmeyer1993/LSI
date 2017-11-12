@@ -1,0 +1,16 @@
+[1] chrome
+	- installs the google chrome browser
+[2] javadev
+	- installs Eclipse Neon for java development
+[3] media
+	- installs mplayer
+	- installs mencoder
+	- installs Retspan
+[4] nano
+	- installs the nano text editor
+	- adds additional text highlighting and formatting for nano
+[5] security
+	- rfkills blootooth
+[6] vivaldi
+	- installs the vivaldi browser
+	- adds an extension for watching Netflix
